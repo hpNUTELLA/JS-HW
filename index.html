@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <script>
+
+        var confirmed=confirm ('Хотите на путешествию?')
+        console.log(confirmed);
+        if (confirmed) {
+        var money = prompt ("Введите сумму ($)")
+        if (money>= 4000) {
+            alert ("Вы можете путешествовать в Америку.")
+        }
+        else if (money >= 3500) {
+            alert ("Вы можете путешествовать в Лондон")
+        }
+        else if (money >= 3000) {
+            alert ("Вы можете путешествовать в Швецария.")
+        }
+        else if (money >= 2500 ){
+            alert ("Вы можете путешествовать в Китай.")
+        }
+        else if (money >= 2000) {
+            alert ("Вы можете путешествовать в Корею.")
+        }
+        else if (money >=1500) {
+            alert ("Вы можете путешествовать в Россия.")
+        }
+        else if (money >=0500) {
+            alert ("Вы можете путешествовать в Казахстан.")
+        }
+        else if (money >=500) {
+            alert ("Вы можете путешествовать в горы Чимган.")
+        }
+        else {
+            alert ("Вы еще не множко должны по работать.")
+        }
+        }
+    
+        </script>
+</body>
+</html>
